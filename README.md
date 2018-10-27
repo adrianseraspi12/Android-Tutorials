@@ -6,5 +6,6 @@ A set of android tutorials
 3. [**Bottom Sheet Dialog**](https://github.com/adrianseraspi12/Android-Tutorials/tree/master/Bottom%20Sheet%20Dialog)
 4. [**Fullscreen Dialog**](https://github.com/adrianseraspi12/Android-Tutorials/tree/master/Fullscreen%20Dialog)
 5. [**Material Design Buttons**](https://github.com/adrianseraspi12/Android-Tutorials/tree/master/Material%20Design%20Buttons)
+6. [**Snackbar**](https://github.com/adrianseraspi12/Android-Tutorials/tree/master/Snackbar)
 
 Watch my [**Youtube playslist**](https://www.youtube.com/watch?v=Ks2d7QOCG70&list=PLCRF4ppnFvasJviT1CXAJyOFxKB90WZU_) for the tutorials
