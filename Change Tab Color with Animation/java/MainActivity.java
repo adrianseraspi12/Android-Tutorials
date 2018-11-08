@@ -57,15 +57,16 @@ public class MainActivity extends AppCompatActivity implements TabLayout.BaseOnT
         switch (tab.getPosition()) {
 
             case 0:
-                animateAppAndStatusBar(R.color.colorTabOne);
+                animateAppAndStatusBar(0, R.color.colorTabOne);
             break;
 
             case 1:
-                animateAppAndStatusBar(R.color.colorTabTwo);
+                animateAppAndStatusBar(appBarLayout.getWidth() / 2, R.color.colorTabTwo);
                 break;
 
             case 2:
-                animateAppAndStatusBar(R.color.colorTabThree);
+                animateAppAndStatusBar(appBarLayout.getWidth(), R.color.colorTabThree);
+                break;
 
         }
     }
@@ -80,11 +81,11 @@ public class MainActivity extends AppCompatActivity implements TabLayout.BaseOnT
 
     }
 
-    private void animateAppAndStatusBar(final int toColor) {
+    private void animateAppAndStatusBar(int cx, final int toColor) {
         Animator animator = ViewAnimationUtils.createCircularReveal(
                 mRevealView,
-                appBarLayout.getWidth() / 2,
-                appBarLayout.getHeight() / 2, 0,
+                cx,
+                appBarLayout.getBottom(), 0,
                 appBarLayout.getWidth() / 2);
 
         animator.addListener(new AnimatorListenerAdapter() {
