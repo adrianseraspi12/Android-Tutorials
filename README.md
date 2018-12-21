@@ -12,4 +12,4 @@ A set of android tutorials
 9. [**Change Tab Color with Animation**](https://github.com/adrianseraspi12/Android-Tutorials/tree/master/Change%20Tab%20Color%20with%20Animation)
 10. [**Loading Screen (Alternative for ProgressDialog)**](https://github.com/adrianseraspi12/Android-Tutorials/tree/master/Loading%20Screen%20(Alternative%20for%20ProgressDialog))
 
-Watch my [**Youtube playslist**](https://www.youtube.com/watch?v=Ks2d7QOCG70&list=PLCRF4ppnFvasJviT1CXAJyOFxKB90WZU_) for the tutorials
+Watch my [**Youtube playlist**](https://www.youtube.com/watch?v=Ks2d7QOCG70&list=PLCRF4ppnFvasJviT1CXAJyOFxKB90WZU_) for the tutorials
